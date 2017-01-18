@@ -1,0 +1,24 @@
+{
+  "name": "seanroux/doge",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+      "name": "Sean Roux",
+      "email": "sean@mytimeslot.co.za",
+      "homepage": "https://github.com/seanroux or your website",
+      "role": "Creator"
+    }],
+  "description": "A mean ass library to assist in the world of dogeness",
+  "keywords": ["sean", "roux", "doge"],
+  "require-dev": {
+      "phpunit/phpunit": "~5.0"
+  },
+  "require": {
+    "bunny/bunny": "0.2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "SeanRoux\\Doge\\Wow\\Such\\": "src/"
+    }
+  }
+}
