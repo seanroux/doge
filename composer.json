@@ -13,9 +13,6 @@
   "require-dev": {
       "phpunit/phpunit": "~5.0"
   },
-  "require": {
-    "bunny/bunny": "0.2.4"
-  },
   "autoload": {
     "psr-4": {
       "SeanRoux\\Doge\\Wow\\Such\\": "src/"
