@@ -5,13 +5,16 @@
   "authors": [{
       "name": "Sean Roux",
       "email": "sean@mytimeslot.co.za",
-      "homepage": "https://github.com/seanroux or your website",
+      "homepage": "https://github.com/seanroux",
       "role": "Creator"
     }],
   "description": "A mean ass library to assist in the world of dogeness",
   "keywords": ["sean", "roux", "doge"],
   "require-dev": {
       "phpunit/phpunit": "~5.0"
+  },
+  "require": {
+    "seanroux/wow": "~1.0"
   },
   "autoload": {
     "psr-4": {
