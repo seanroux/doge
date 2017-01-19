@@ -11,10 +11,10 @@ class Doge
         return '1';
     }
 
-    public function getWow()
+    public function getWow($wow)
     {
         $wow = new Wow();
 
-        return $wow->getWowString('WOW!');
+        return $wow->getWowString($wow);
     }
 }
